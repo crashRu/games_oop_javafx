@@ -1,17 +1,8 @@
 package ru.job4j.packman;
 
 import ru.job4j.packman.firuges.Cell;
-
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
-
-/**
- * //TODO add comments.
- *
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 public class Logic {
     private final ReentrantLock[][] board;
 
